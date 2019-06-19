@@ -17,6 +17,25 @@ Testing Data Accuracy = 99.18%
 ### Convolutional Neural Network with Dropout layer of 20 percent
 Testing Data Accuracy = 99.32%
 
+## Notes
+
+### keras_testing_1.py
+Traditional Fully Connected Neural Network file, training and saving process.
+The result (weights) is being saved into trained_model.h5
+
+### keras_tesing_2.py
+This python3 script test the trained model by loading the trained_model.h5 file.
+And let it evaluate the testing data to obtain the accuracy of the model
+
+### keras_testing_convo_1.py
+Convolutional Neural Network file, with dropout layer, training and saving process.
+The result (weights) is being saved into trained_cnn_dropout_model.h5
+
+### keras_testing_convo_1_without_dropout.py
+Convolutional Neural Network file, without dropout layer, training and saving process.
+The result (weights) is being saved into trained_cnn_model.h5
+
+
 ## Conclusion
 We can tell from the testing data accuracy that the convolution neural network performs better in overall result.
 

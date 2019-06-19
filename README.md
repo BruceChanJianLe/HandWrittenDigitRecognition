@@ -6,6 +6,16 @@ This project is to compare the performance of three different neural network.
 - 2.Convolutional Neural Network
 - 3.Convolutional Neural Network with Dropout layer of 20 percent
 
+The MNIST database of handwritten digits are available in http://yann.lecun.com/exdb/mnist/
+
+All the data are being pre-processed before feeding to three of the models
+
+The data set are grayscale images, which is being normalize from 0 - 255 to 0 - 1
+
+Also note that Keras NN takes in a 4 dimensional numpy array
+
+It was originally a project done by Yann LeCun
+
 ## Performance in term of validation accuracy
   
 ### Traditional Fully Connected Neural Network

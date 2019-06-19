@@ -57,4 +57,10 @@ model.summary()
 # Train the model
 history = model.fit(X_train, y_train, epochs=20, validation_data=(X_test, y_test))
 
+# Show the accuracy
+plt.plot(history.history['acc'])
+plt.savefig('accuracy.png', bbox_inches='tight')
+plt.plot(history.history['val_acc'])
+plt.savefig('validation_accuracy.png', bbox_inches='tight')
+
 model.save("trained_model.h5")

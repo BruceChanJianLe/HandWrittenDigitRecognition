@@ -24,7 +24,7 @@ Traditional Fully Connected Neural Network file, training and saving process.
 The result (weights) is being saved into trained_model.h5
 
 ### keras_tesing_2.py
-This python3 script test the trained model by loading the trained_model.h5 file.
+This python3 script tests the trained model by loading the trained_model.h5 file.
 And let it evaluate the testing data to obtain the accuracy of the model
 
 ### keras_testing_convo_1.py
@@ -35,6 +35,9 @@ The result (weights) is being saved into trained_cnn_dropout_model.h5
 Convolutional Neural Network file, without dropout layer, training and saving process.
 The result (weights) is being saved into trained_cnn_model.h5
 
+### keras_testing_convo_2.py
+This python3 script tests both trained_cnn_dropout_model.h5 and trained_cnn_model.h5.
+It evaluates the testing date accuracy of both the models.
 
 ## Conclusion
 We can tell from the testing data accuracy that the convolution neural network performs better in overall result.

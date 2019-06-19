@@ -9,7 +9,7 @@ This project is to compare the performance of three different neural network.
 ## Performance in term of validation accuracy
   
 ### Traditional Fully Connected Neural Network
-Testing Data Accuracy = 98.27%
+Testing Data Accuracy = 98.01%
 
 ### Convolutional Neural Network
 Testing Data Accuracy = 99.18%
